@@ -4,7 +4,7 @@ This is a personal portfolio website for **Danson Wayne Kama Mburu**, a cybersec
 
 ## 🌐 Live Preview
 
-Visit the live portfolio: [danson-mburu.vercel.app](https://danson-mburu.vercel.app/)
+Visit the live portfolio: [danson-mburu.vercel.app](https://plp-hackathon-five.vercel.app/)
 
 ---
 
