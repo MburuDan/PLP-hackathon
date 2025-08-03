@@ -1,16 +1,19 @@
+/* Apply box-sizing to all elements and remove default margin/padding */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Set base font, background, and text color for the entire page */
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to right, #f2f7fd, #e0f0fc);
+  background: linear-gradient(to right, #f2f7fd, #e0f0fc); /* Soft gradient background */
   color: #333;
   line-height: 1.6;
 }
 
+/* Container for page content, centered and with max width */
 .container {
   width: 90%;
   max-width: 1000px;
@@ -18,22 +21,26 @@ body {
   padding: 20px 0;
 }
 
+/* Header section styling */
 header {
-  background: #1e2a38;
+  background: #1e2a38; /* Dark blue background */
   color: white;
   padding: 40px 0;
   text-align: center;
 }
 
+/* Header main title font size */
 header h1 {
   font-size: 2.5rem;
 }
 
+/* Navigation bar background and spacing */
 nav {
   background: #1e2a38;
   padding: 10px 0;
 }
 
+/* Navigation list layout */
 nav ul {
   display: flex;
   justify-content: center;
@@ -41,10 +48,12 @@ nav ul {
   list-style: none;
 }
 
+/* Spacing between navigation items */
 nav ul li {
   margin: 0 15px;
 }
 
+/* Navigation links styling */
 nav ul li a {
   color: #fff;
   text-decoration: none;
@@ -53,23 +62,27 @@ nav ul li a {
   border-radius: 5px;
 }
 
+/* Hover effect on navigation links */
 nav ul li a:hover {
   background-color: #2e3d4f;
 }
 
+/* Card-style box for each section */
 .card {
   background: white;
   margin-bottom: 25px;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
+/* Section headings */
 h2 {
   color: #1e2a38;
   margin-bottom: 15px;
 }
 
+/* Styling for tags (like programming languages) */
 .tags span {
   display: inline-block;
   background: #1e2a38;
@@ -80,19 +93,23 @@ h2 {
   font-size: 0.9rem;
 }
 
+/* Project list items spacing and line height */
 .projects li {
   margin-bottom: 15px;
   line-height: 1.4;
 }
 
+/* Default link color */
 a {
   color: #0077cc;
 }
 
+/* Hover effect on links */
 a:hover {
   text-decoration: underline;
 }
 
+/* Form input and textarea styling */
 form input,
 form textarea {
   width: 100%;
@@ -103,6 +120,7 @@ form textarea {
   font-size: 1rem;
 }
 
+/* Button styling */
 .btn {
   display: inline-block;
   padding: 12px 20px;
@@ -114,10 +132,12 @@ form textarea {
   transition: background 0.3s;
 }
 
+/* Button hover effect */
 .btn:hover {
   background: #2e3d4f;
 }
 
+/* Footer styling */
 footer {
   background: #1e2a38;
   color: white;
@@ -126,13 +146,14 @@ footer {
   margin-top: 40px;
   font-size: 0.9rem;
 }
+
+/* Profile image style in the header */
 .profile-img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 50%; /* Make it circular */
   object-fit: cover;
   margin-bottom: 20px;
   border: 4px solid white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Slight shadow */
 }
-
